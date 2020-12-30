@@ -2,10 +2,15 @@
 
 This is my first game built using pygame modules. It uses simple vector graphics to simulate the Chrome dino game.
 
-![Game play](https://github.com/boris1022chan/obstacle-runner/blob/master/game-play.png)
+![Game play](./images/game-play.png)
 
-## Contributing
-This repository is not actively maintained but feel free to fork and make modification.
+## Get Started
+Python and pip module `pygame` must be installed, otherwise do
+```
+pip install pygame
+```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+For window, simply double-click on `obstacle_runner.py`. For Unix or MacOS, run 
+```
+python obstacle_runner.py
+```

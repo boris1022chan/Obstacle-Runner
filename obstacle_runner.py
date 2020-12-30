@@ -86,7 +86,6 @@ class obstacle(object):
         pygame.draw.rect(screen, blue, (self.x, self.y, self.width, self.height))
         self.x -= speed        
         pygame.draw.rect(screen, black, (self.x, self.y, self.width, self.height))
-              
     
 class objectCollision():
     ## if the block touch the ground
@@ -169,4 +168,3 @@ def gameLoop():
     pygame.quit()
 
 gameLoop()
-
